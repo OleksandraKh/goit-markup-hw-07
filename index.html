@@ -8,12 +8,9 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
-    />
+
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -483,79 +480,68 @@
     </footer>
 
     <div class="backdrop is-hidden" data-backdrop>
-      
-        <form class="form js-speaker-form" autocomplete="off">
-          <button class="vector" data-close-modal>
-            <svg class="icon-vector" width="30" height="30">
-              <use href=" ./images/symbol-defs1.svg#icon-vector"></use>
-            </svg>
-          </button>
-          <h1 class="form-title">Оставьте свои данные, мы вам перезвоним</h1>
+      <form class="form js-speaker-form" autocomplete="off">
+        <button class="vector" data-close-modal>
+          <svg class="icon-vector" width="30" height="30">
+            <use href=" ./images/symbol-defs1.svg#icon-vector"></use>
+          </svg>
+        </button>
+        <h1 class="form-title">Оставьте свои данные, мы вам перезвоним</h1>
 
-          <label class="form-group">
-            <input
-              type="text" 
-              class="form-input"
-              name="user-name"
-              placeholder=" "
-              autofocus
-            />
-            <span class="form-label">Имя</span>
-            <svg class="icon" width="12" height="12">
-              <use href=" ./images/symbol-defs1.svg#icon-man"></use>
-            </svg>
-          </label>
+        <label class="form-group">
+          <input
+            type="text"
+            class="form-input"
+            name="user-name"
+            placeholder=" "
+            autofocus
+          />
+          <span class="form-label">Имя</span>
+          <svg class="icon" width="12" height="12">
+            <use href=" ./images/symbol-defs1.svg#icon-man"></use>
+          </svg>
+        </label>
 
-          <label class="form-group">
-            <input type="tel" class="form-input" name="tel" placeholder=" " />
-            <span class="form-label">Телефон</span>
-            <svg class="icon" width="13" height="13">
-              <use href=" ./images/symbol-defs1.svg#icon-tel"></use>
-            </svg>
-          </label>
+        <label class="form-group">
+          <input type="tel" class="form-input" name="tel" placeholder=" " />
+          <span class="form-label">Телефон</span>
+          <svg class="icon" width="13" height="13">
+            <use href=" ./images/symbol-defs1.svg#icon-tel"></use>
+          </svg>
+        </label>
 
-          <label class="form-group">
-            <input
-              type="email"
-              class="form-input"
-              name="mail"
-              placeholder=" "
-            />
-            <span class="form-label">Почта</span>
-            <svg class="icon" width="15" height="12">
-              <use href=" ./images/symbol-defs1.svg#icon-mail-1"></use>
-            </svg>
-          </label>
+        <label class="form-group">
+          <input type="email" class="form-input" name="mail" placeholder=" " />
+          <span class="form-label">Почта</span>
+          <svg class="icon" width="15" height="12">
+            <use href=" ./images/symbol-defs1.svg#icon-mail-1"></use>
+          </svg>
+        </label>
 
-          <div class="form-group">
-            <textarea
-              name="commend"
-              id="commend"
-              rows="8"
-              placeholder="Комментарий"
-            ></textarea>
-          </div>
+        <div class="form-group">
+          <textarea
+            name="commend"
+            id="commend"
+            rows="8"
+            placeholder="Комментарий"
+          ></textarea>
+        </div>
 
-             
-            <label class="checkbox-group">
-              <input
-              class="checkbox"
-              type="checkbox"
-              name="consent"
-              />
-              <svg class="icon-mark" width="16" height="15">
-              <use href=" ./images/symbol-defs1.svg#icon-mark"></use>
-            </svg>
-            <span class="form-policy"> Соглашаюсь с рассылкой и принимаю
-              <a class="form-link" href="#">Условия договора</a></span>
-            </label>
-        
+        <label class="checkbox-group">
+          <input class="checkbox" type="checkbox" name="consent" />
+          <svg class="icon-mark" width="16" height="15">
+            <use href=" ./images/symbol-defs1.svg#icon-mark"></use>
+          </svg>
+          <span class="form-policy">
+            Соглашаюсь с рассылкой и принимаю
+            <a class="form-link" href="#">Условия договора</a></span
+          >
+        </label>
 
-          <button class="form-button" data-close-modal type="submit">
-            Отправить
-          </button>
-        </form>
-      
+        <button class="form-button" data-close-modal type="submit">
+          Отправить
+        </button>
+      </form>
     </div>
     <script>
       const refs = {
