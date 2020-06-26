@@ -1,4 +1,4 @@
-.site-nav {
+$transition: .site-nav {
   display: flex;
   margin-left: 85px;
   margin-top: 0;
@@ -9,7 +9,6 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
 .site-item {
   margin-right: 50px;
 }

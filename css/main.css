@@ -1,13 +1,13 @@
 html {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 body {
@@ -50,8 +50,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -73,7 +73,7 @@ Use a better box model (opinionated).
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /**
@@ -82,7 +82,7 @@ Use a more readable tab size (opinionated).
 :root {
   -moz-tab-size: 4;
   -o-tab-size: 4;
-  tab-size: 4;
+     tab-size: 4;
 }
 
 /**
@@ -111,8 +111,7 @@ body {
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 /*
@@ -135,7 +134,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 */
 abbr[title] {
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /**
@@ -328,14 +327,14 @@ summary {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header-logo {
   display: inline-block;
-  margin-bottom: 0;
   margin-top: 0;
+  margin-bottom: 0;
   color: #2196f3;
   font-family: Reloway;
   font-weight: 700;
@@ -346,19 +345,18 @@ summary {
   color: #212121;
 }
 
-.address-logo {
+.footer-logo {
   display: block;
   margin-top: 0;
   margin-bottom: 0;
-  color: var(--accent-color);
-  font-family: Raleway;
+  color: #2196f3;
+  font-family: Reloway;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
 }
 
-.logo-accent {
-  color: var(--primary-white-color);
+.footer-logo .accent {
+  color: #ffffff;
 }
 
 .site-nav {
@@ -393,9 +391,9 @@ summary {
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 250ms;
-  transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-container {
@@ -414,13 +412,13 @@ summary {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   margin-top: 0;
   margin-bottom: 0;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -429,9 +427,9 @@ summary {
   -webkit-transition-property: color, fill;
   transition-property: color, fill;
   -webkit-transition-duration: 250ms;
-  transition-duration: 250ms;
+          transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-nav .icon-mail {
