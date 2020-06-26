@@ -1,12 +1,11 @@
 /* :root {
   --primary-text-color: #757575; /* Вторичный цвет текста */
-  --title-text-color: #212121; /*Цвет основного текста */
-  --accent-color: #2196f3; /*Акцент */
+ 
   /* --primary-white-color: #ffffff; Белый цвет */
   /* опциональный цвет текста rgba(255, 255, 255, 0.6) 
   rgba(255, 255, 255, 0.4); */
-  /* Вторичный цвет фона #F5F4FA */
-}
+  /* Вторичный цвет фона #F5F4FA 
+}*/
 
 /* Для того чтобы не задавать box-sizing каждому элементу отдельно */
 /* html {
@@ -47,8 +46,8 @@ body {
 .is-hidden {
   margin-top: 0;
   margin-bottom: 0;
-  visibility: hidden; /*Прячет заголовок */
-}
+  visibility: hidden;
+} */
 
 /* .section {
   padding-top: 94px;
@@ -104,9 +103,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  /* align-items: center; */
-    /* position: absolute; */
-  /* outline: 2px solid blue; */
+ 
 }
 
 .site-item {
@@ -117,8 +114,7 @@ body {
 }
 .site-link {
   display: block;
-  /* margin-top: 0;
-  margin-bottom: 0; */
+ 
   text-decoration: none;
   padding-bottom: 32px;
   padding-top: 32px;
@@ -139,14 +135,14 @@ body {
   bottom: 0;
   background-color: #2196F3;
   border-radius: 2px;
-  /* margin-bottom: 0; */
+
 }
 
 
 .contact-container {
   display: flex;
   margin-left: auto;
-  /* outline: 2px solid blueviolet; */
+
 }
 .contact-nav li:last-child {
   margin-left: 30px;
