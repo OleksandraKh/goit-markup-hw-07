@@ -1,0 +1,30 @@
+$fontFamily: Reloway;
+$logoWeight: 700;
+$logoSize: 26px;
+
+.header-logo {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $accent-color;
+  font-family: $fontFamily;
+  font-weight: $logoWeight;
+  font-size: $logoSize;
+
+  .accent {
+    color: $titleText-color;
+  }
+}
+
+.footer-logo {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: $accent-color;
+  font-family: $fontFamily;
+  font-weight: $logoWeight;
+  font-size: $logoSize;
+ 
+    .accent {
+  color: $primaryWhite-color;
+}

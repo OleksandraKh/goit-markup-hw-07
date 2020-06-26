@@ -1,3 +1,66 @@
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+  padding-bottom: 25px;
+  padding-top: 24px;
+}
+
+.is-hidden {
+  margin-top: 0;
+  margin-bottom: 0;
+  visibility: hidden;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  border: 2px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 1200px;
+}
+
 /*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -10,7 +73,7 @@ Use a better box model (opinionated).
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /**
@@ -19,7 +82,7 @@ Use a more readable tab size (opinionated).
 :root {
   -moz-tab-size: 4;
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
 }
 
 /**
@@ -48,7 +111,8 @@ body {
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 /*
@@ -71,7 +135,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 */
 abbr[title] {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /**
@@ -253,5 +317,140 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
+}
+
+.page-header {
+  border: 1px solid #ececec;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header-logo {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: #2196f3;
+  font-family: Reloway;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.header-logo .accent {
+  color: #212121;
+}
+
+.address-logo {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-accent {
+  color: var(--primary-white-color);
+}
+
+.site-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 85px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-item {
+  margin-right: 50px;
+}
+
+.site-item:last-child {
+  margin-right: 0;
+}
+
+.site-link {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  color: #212121;
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.contact-nav li:last-child {
+  margin-left: 30px;
+}
+
+.contact-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-top: 0;
+  margin-bottom: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  fill: currentColor;
+  -webkit-transition-property: color, fill;
+  transition-property: color, fill;
+  -webkit-transition-duration: 250ms;
+  transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-nav .icon-mail {
+  height: 12px;
+  margin-right: 10px;
+  background-size: contain;
+}
+
+.contact-nav .icon-telefon {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+.site-link:hover,
+.contact-nav .link:hover,
+.site-link:focus,
+.contact-nav .link:focus {
+  color: #2196f3;
+  fill: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,25 +1,25 @@
-:root {
+/* :root {
   --primary-text-color: #757575; /* Вторичный цвет текста */
   --title-text-color: #212121; /*Цвет основного текста */
   --accent-color: #2196f3; /*Акцент */
-  --primary-white-color: #ffffff; /* Белый цвет */
+  /* --primary-white-color: #ffffff; Белый цвет */
   /* опциональный цвет текста rgba(255, 255, 255, 0.6) 
   rgba(255, 255, 255, 0.4); */
   /* Вторичный цвет фона #F5F4FA */
 }
 
 /* Для того чтобы не задавать box-sizing каждому элементу отдельно */
-html {
+/* html {
   box-sizing: border-box;
 }
 
 /*всем элементам и псевдоэлементам, при помощи универсального селектора *, задаётся наследование box-sizing от предка*/
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
+} */
+/* 
 body {
   margin: 0;
   background-color: #ffffff;
@@ -27,7 +27,7 @@ body {
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-}
+} 
 
 .list {
   list-style: none;
@@ -50,14 +50,14 @@ body {
   visibility: hidden; /*Прячет заголовок */
 }
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
   border: 2px;
-}
+}  */
 
 /* Heder */
-.page-header {
+/* .page-header {
   border: 1px solid #ececec;
 }
 
@@ -76,8 +76,8 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-}
-
+} */ 
+/* 
 .header-logo {
   display: inline-block;
   margin-bottom: 0;
@@ -92,7 +92,7 @@ body {
 
 .header-accent {
   color: var(--title-text-color);
-}
+} */
 
 .site-nav {
   display: flex;
@@ -637,7 +637,7 @@ footer {
 
   /* outline: 2px solid white; */
 }
-.address-logo {
+/* .address-logo {
   display: block;
   margin-top: 0;
   margin-bottom: 0;
@@ -651,7 +651,7 @@ footer {
 }
 .logo-accent {
   color: var(--primary-white-color);
-}
+} */
 
 .footer-text {
   display: flex;
