@@ -4,7 +4,7 @@ $accent-color: #2196f3;
 $primaryWhite-color: #ffffff;
 $secondaryBg-color: #f5f4fa;
 
-$fontFamily: Reloway;
+$fontFamily: Roboto, sans-serif;
 $logoWeight: 700;
 $logoSize: 26px;
 
@@ -22,9 +22,10 @@ body {
   margin: 0;
   background-color: $primaryWhite-color;
   color: $titleText-color;
-  font-family: Roboto, sans-serif;
+  font-family: $fontFamily;
   letter-spacing: 0.03em;
 }
+
 
 .list {
   list-style: none;
