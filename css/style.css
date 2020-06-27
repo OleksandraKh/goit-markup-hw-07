@@ -337,7 +337,7 @@ body {
 
 /* Чем мы занимаемся */
 
-.divace-title {
+/* .divace-title {
   font-style: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -346,8 +346,6 @@ body {
 
 .divace {
   display: flex;
-
-  /* outline: 2px solid tomato; */
 }
 
 .divace-card {
@@ -390,11 +388,11 @@ body {
   text-transform: uppercase;
   padding: 27px;
   background-position: bottom;
-}
+} */
 
 /* Наша команда */
 
-.team-container {
+/* .team-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 0;
@@ -405,7 +403,7 @@ body {
   padding-right: 15px;
   width: 1200px;
   justify-content: center;
-  /* outline: 2px solid blueviolet; */
+  
 }
 
 .team-title {
@@ -417,7 +415,7 @@ body {
 
 .team {
   display: flex;
-  /* outline: 2px solid tomato; */
+ 
 }
 
 .team-card {
@@ -426,7 +424,7 @@ body {
   background: #ffffff;
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
-  /* outline: 2px solid tomato; */
+
 }
 
 .team-card:first-child {
@@ -459,12 +457,12 @@ body {
   justify-content: center;
 
   padding-bottom: 24px;
-  /* outline: 2px solid tomato; */
+ 
 }
 
 .icon-link {
   display: flex;
-  /* outline: 2px solid tomato; */
+ 
 }
 .icon-link:first-child {
   margin-left: 0;
@@ -508,11 +506,11 @@ body {
 .team-icon-linkedin {
   width: 20px;
   background-size: contain;
-}
+} */
 
 /* Постоянные клиенты */
 
-.customer-container {
+/* .customer-container {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
@@ -521,7 +519,7 @@ body {
   padding-right: 15px;
   width: 1200px;
 
-  /* outline: 2px solid blueviolet; */
+ 
 }
 
 .customer-title {
@@ -534,7 +532,7 @@ body {
 
 .customer {
   display: flex;
-  /* outline: 2px solid tomato; */
+ 
 }
 
 .customer-logo {
@@ -549,8 +547,6 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
   
-}
-
 .customer-logo:first-child {
   margin-left: 0;
 }
@@ -600,7 +596,7 @@ body {
 .customer-logo .icon-logo_6 {
   width: 88px;
   height: 45px;
-}
+} */
 
 /* Подвал */
 footer {
@@ -649,7 +645,7 @@ footer {
   color: var(--primary-white-color);
 } */
 
-.footer-text {
+/* .footer-text {
   display: flex;
 
   margin-top: 0;
@@ -794,7 +790,7 @@ footer {
   padding-top: 56px;
   padding-bottom: 50px;
 
-  /* outline: 2px solid white;d */
+ 
 }
 
 .flex-bottom > h2 {
@@ -876,7 +872,7 @@ footer {
   text-align: center;
   letter-spacing: 0.03em;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
+} */
 
 /* Портфолио */
 
