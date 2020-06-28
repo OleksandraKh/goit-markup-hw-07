@@ -36,8 +36,11 @@
             margin-right: 0;
         }
     
-        %link {
-            
+        &-link {
+            display: inline-block;
+            margin-top: 0;
+            margin-bottom: 0;
+            text-decoration: none;
             border: 1px solid #eeeeee;
             transition-property: box-shadow;
             transition-duration: 250ms;
