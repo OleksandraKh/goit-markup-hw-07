@@ -1,53 +1,32 @@
 .page-header {
-  border: 1px solid #ececec;
-}
-
-.header-container {
-  display: flex;
-  align-items: center;
+  @include bordered (#ececec);
 }
 
 .navigation{
-  display: flex;
-  margin-left: 85px;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 0;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
+  @extend %style-header;
   
       &-item{
-      margin-right: 50px;
-    
-      &:last-child{
-        margin-right: 0;
-      }
+      position: relative;
+      margin-left: 85px;
+      padding-top: 32px;
+      padding-bottom: 32px;
+           
     }
 }
 
   .link{
-    display: block;
-    text-decoration: none;
-    padding-bottom: 30px;
-    padding-top: 30px;
+
+    @extend %link;
     color: $titleText-color;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition (color);
+    
      
-   &:hover{
+   &:hover,
+   &:focus{
     color: $accent-color;
     fill: $accent-color;
   } 
-
-  &:focus{
-    color: $accent-color;
-    fill: $accent-color;
-  }
 }
-
 
 .contact{
   display: flex;
@@ -55,40 +34,22 @@
 }
 
   .contact-navigation{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 0;
-    margin-bottom: 0;
-    align-items: center;
-    font-size: 14px;
-    line-height: 1.14;
+    @extend %style-header;
     
-    color: $primaryText-color;
-    fill: currentColor;
-    transition-property: color, fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
-  .link{
-    display: block;
-    text-decoration: none;
-    padding-bottom: 32px;
-    padding-top: 32px;
-    color: $titleText-color;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .link{
+
+      @extend %link;
+      color: $titleText-color;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
-   &:hover{
+   &:hover,
+   &:focus{
     color: $accent-color;
     fill: $accent-color;
   } 
+}
 
-  &:focus{
-    color: $accent-color;
-    fill: $accent-color;
-  }
-  
-  }
   .icon-mail {
     height: 12px;
     margin-right: 10px;
@@ -103,7 +64,6 @@
   &:last-child{
     margin-left: 30px;
   }
-
 }
 
 

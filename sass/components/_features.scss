@@ -1,58 +1,39 @@
-.section-container {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
-    justify-content: center;
-}
-  
-  .features-container {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-  }
-
   .features-card {
+    
     margin-left: 30px;
 
     &:first-child {
         margin-left: 0px;
       }
 
-  .icon-antena,
-  .icon-clock,
-  .icon-diagram,
-  .icon-astronaut
-   {
-    display: block;
-    width: 270px;
-    height: 120px;
-    background:$secondaryBg-color;
-    padding: 25px 100px;
-    border-radius: 4px;
-  }
-}
-    .features-title {
-    margin-bottom: 10px;
-    margin-top: 30px;
-    color: $titleText-color;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-  }
+  .features-title {
+      margin-bottom: 10px;
+      margin-top: 30px;
+      color: $titleText-color;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 1.14;
+      text-transform: uppercase;
+    }
 
-  .features-text {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    color: $primaryText-color;
-  }
+    .features-text {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7;
+      color: $primaryText-color;
+    }
+
+    .icon-antena,
+    .icon-clock,
+    .icon-diagram,
+    .icon-astronaut{
+      display: block;
+      width: 270px;
+      height: 120px;
+      background:$secondaryBg-color;
+      padding: 25px 100px;
+      border-radius: 4px;
+    }
+}

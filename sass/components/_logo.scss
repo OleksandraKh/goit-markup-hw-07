@@ -1,12 +1,9 @@
 .header-logo {
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
+  @extend %style-logo;
   color: $accent-color;
-  font-family: $fontFamily;
-  font-weight: $logoWeight;
-  font-size: $logoSize;
-
+  padding-top: 24px;
+  padding-bottom: 25px;
+  
   .accent {
     color: $titleText-color;
   }
@@ -14,13 +11,10 @@
 }
 
 .footer-logo {
-  display: block;
-  margin-top: 0;
-  margin-bottom: 0;
+  @extend %style-logo;
   color: $accent-color;
-  font-family: $fontFamily;
-  font-weight: $logoWeight;
-  font-size: $logoSize;
+  display: inline-flex;
+  
 
   .accent {
     color: $primaryWhite-color;

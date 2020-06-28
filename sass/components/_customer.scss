@@ -1,19 +1,5 @@
-.customer-container {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    width: 1200px;
-}
-  
   .customer-title {
-    font-style: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    margin-bottom: 50px;
-    text-align: center;
+    @extend %text-title;
   }
   
   .customer {
