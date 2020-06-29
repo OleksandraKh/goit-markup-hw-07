@@ -790,6 +790,7 @@ textarea:focus {
 }
 
 textarea {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -813,6 +814,29 @@ textarea {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-label-comment {
+  position: absolute;
+  top: 20%;
+  left: 16px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
+}
+
+textarea:focus + .form-label-comment,
+textarea:not(:placeholder-shown) + .form-label-comment {
+  color: #2196f3;
+  font-size: 12px;
+  line-height: 14px;
+  left: 0px;
+  -webkit-transform: translateY(-280%);
+          transform: translateY(-280%);
+  outline: none;
 }
 
 .form-button {

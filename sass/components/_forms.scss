@@ -125,6 +125,8 @@
   
  
   textarea{
+    
+    position: relative;
     display: flex;
     flex-direction: column;
     resize:none;
@@ -140,7 +142,23 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  
+  .form-label-comment{
+    position: absolute;
+    top: 20%;
+    left: 16px;
+    transform: translateY(-50%);
+    transition: transform 250ms linear;
+  }
+  textarea:focus+ .form-label-comment,
+  textarea:not(:placeholder-shown)+ .form-label-comment{
+    color: $accent-color;
+    font-size: 12px;
+    line-height: 14px;
+    left: 0px;
+    transform: translateY(-280%);
+    outline: none;
+  }
+
   .form-button {
     border-radius: 4px;
     margin-top: 30px;
